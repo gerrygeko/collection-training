@@ -5,10 +5,14 @@ public class API {
     private static List<Person> listOfPerson = List.of(
             new Person(33, "Marco"),
             new Person(33, "Gennaro"),
-            new Person(34, "Marco"),
-            new Person(34, "Luca"),
-            new Person(35, "Marco"),
-            new Person(35, "Marco"));
+            new Person(33, "Marco"),
+            new Person(33, "Gennaro"),
+            new Person(35, "Luca"),
+            new Person(36, "Luca"),
+            new Person(37, "Luca"),
+            new Person(38, "Luca"),
+            new Person(39, "Giovanni"),
+            new Person(40, "Marco"));
 
     public static int getListLength() {
         return listOfPerson.size();
